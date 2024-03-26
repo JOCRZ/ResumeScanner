@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Description to WordCloud</title>
+    <script src="https://unpkg.com/@gradio/client"></script> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Job Description to WordCloud</h2>
+        <div class="form-group">
+            <textarea rows='10' cols="55" id="result" placeholder="Paste the text.."></textarea>
+        </div>
+        <div class="form-group" style="display: flex; justify-content: center;">
+            <input type="number" id="count" name="count" step="10">
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div style="display: inline-block; margin-right: 10px;">
+                <button class="get_values" onclick="startUpdate(event)">Show</button>
+            </div>
+            <div style="display: inline-block;">
+                <button class="clear_values" onclick="clearFields()">Clear</button>
+            </div>
+        </div>
+        
+        <script>
+            function clearFields() {
+                // Clear the textarea and input field
+                document.getElementById('result').value = "";
+                document.getElementById('count').value = "";
+            }
+        </script>
+        
+    </div>
+
+    <div align="center">
+        <img src="image-url.jpg" alt="Word Cloud Image">
+    </div>
+
+
+     <script>
+        async function generateWordCloud() {
+            var text = document.getElementById('result').value;
+            var count = document.getElementById('count').value;
+
+            // Make a prediction request to the Gradio app
+            const app = await gradio.client("jojo3416/JobDescriptionWordCloud");
+            const result = await app.predict("/predict", [text, parseInt(count)]);
+
+            // Update the image source with the generated word cloud image
+            document.getElementById('wordCloudImage').src = result.data;
+        }
+
+        function clearFields() {
+            // Check if the elements exist before accessing them
+            var resultElement = document.getElementById('result');
+            var countElement = document.getElementById('count');
+
+            if (resultElement && countElement) {
+                // Clear the textarea and input field
+                resultElement.value = "";
+                countElement.value = "";
+                // Clear the image source
+                document.getElementById('wordCloudImage').src = "";
+            } else {
+                console.error("One or both elements not found!");
+            }
+        }
+    </script>
+    
+</body>
+</html>

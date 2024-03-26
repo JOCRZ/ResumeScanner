@@ -1,0 +1,7 @@
+spacy==3.7.4
+torchvision==0.17.1
+scikit-learn==1.4.1.post1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.2.0/en_core_web_lg-2.2.0.tar.gz#egg=en_core_web_lg 
+
+# python -m spacy init fill-config configs/base_config.cfg configs/config.cfg
+#  python -m spacy train configs/config.cfg --output ./models/
