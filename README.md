@@ -12,3 +12,4 @@
 - MiniProject 5 - Convert PDF,DOCX files to txt format.
 - MiniProject 6 - Extract ner from Resume
   https://huggingface.co/spaces/jojo3416/NEResumExtractor
+- MiniProject 7 - Word and Phrase Frequency
