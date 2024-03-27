@@ -1,7 +1,6 @@
-# DiplomaProject
+# Resume Scanner Project
 
-## Resume Parser for Candidates
-
+## Mini Projects
 - Aim: To create a parser to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information.
 
 - MiniProject 1 - compares resume and job description to give similarity score.
