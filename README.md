@@ -8,5 +8,7 @@
 - MiniProject 3 - Converts job description to word cloud.
   https://huggingface.co/spaces/jojo3416/JobDescriptionWordCloud
 - MiniProject 4 - Extract ner from job description.
-  https://huggingface.co/spaces/jojo3416/NEResumExtractor
+  https://huggingface.co/spaces/jojo3416/NERJobDescriptionExtractor
 - MiniProject 5 - Convert PDF,DOCX files to txt format.
+- MiniProject 6 - Extract ner from Resume
+  https://huggingface.co/spaces/jojo3416/NEResumExtractor
