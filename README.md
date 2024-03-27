@@ -1,7 +1,7 @@
 # Resume Scanner Project
-
-## Mini Projects
-- Aim: To create a parser to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information.
+- Aim: To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information help to improve candidate resume.
+  
+## Mini Projects List
 
 - MiniProject 1 - compares resume and job description to give similarity score.
 - MiniProject 2 - Scrapes messages from telegram channel and show messages based on keyword.
