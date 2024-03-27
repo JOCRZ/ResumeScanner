@@ -13,3 +13,4 @@
 - MiniProject 6 - Extract ner from Resume
   https://huggingface.co/spaces/jojo3416/NEResumExtractor
 - MiniProject 7 - Word and Phrase Frequency
+  https://huggingface.co/spaces/jojo3416/PhrasesFrequencyCounter
