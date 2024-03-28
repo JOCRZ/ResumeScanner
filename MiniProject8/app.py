@@ -67,11 +67,10 @@ def preprocessing_text(text):
     text1 = remove_formatting(text)
     text2 = convert_to_lowercase(text1)
     text3 = remove_punctuation(text2)
-    text4 = correct_spelling_spellchecker(text3)
     #text5 = remove_whitespace(text4)
-    text6 = remove_stopwords_spacy(text4)
+    text4 = remove_stopwords_spacy(text3)
 
-    return text6
+    return text4
 
 
 interface = gr.Interface(fn=preprocessing_text,inputs='text',outputs='text')
