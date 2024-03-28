@@ -1,29 +1,20 @@
 
 ![Resume Optimizer](https://github.com/JOCRZ/ResumeScanner/blob/main/data/cover.png?raw=true)
-- Aim: To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information help to improve candidate resume.
-  
-## Mini Projects List
 
-- MiniProject 1 - compares resume and job description to give similarity score.
-https://huggingface.co/spaces/jojo3416/MatchPercentage
-- MiniProject 2 - Scrapes messages from telegram channel and show messages based on keyword.
-- MiniProject 3 - Converts job description to word cloud.
-  https://huggingface.co/spaces/jojo3416/JobDescriptionWordCloud
-- MiniProject 4 - Extract ner from job description.
-  https://huggingface.co/spaces/jojo3416/NERJobDescriptionExtractor
-- MiniProject 5 - Convert PDF,DOCX files to txt format.
-- MiniProject 6 - Extract ner from Resume
-  https://huggingface.co/spaces/jojo3416/NEResumExtractor
-- MiniProject 7 - Word and Phrase Frequency
-  https://huggingface.co/spaces/jojo3416/PhrasesFrequencyCounter
-- MiniProject 8 - Text Preprocessing
-  https://huggingface.co/spaces/jojo3416/TextPreprocessing
+###  To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information help to improve candidate resume.
+  
+## MINI PROJECTS LIST
   
 | PROJECT | DESCRIPTION | LINK |
 |:--- |:--- |:--- |
-| Mini Project 1 | HTML parsing library | HTTP library for making web requests | 
-| Mini Project 2 | Parse HTML/XML documents | Make HTTP requests and handle responses | 
-| Mini Project 3| Parse static content only | No interaction with JavaScript or dynamic content | 
-| Mini Project 4 | Lightweight, simple syntax | Simplicity and ease of use | 
+| Mini Project 1 | Compares resume and job description to give similarity score.| <a href="https://huggingface.co/spaces/jojo3416/MatchPercentage">Link</a>| 
+| Mini Project 2 | Scrapes messages from telegram channel and show messages based on keyword. | <a href="https://www.example.com">Link</a> | 
+| Mini Project 3| Converts job description to Word Cloud. | <a href="https://huggingface.co/spaces/jojo3416/JobDescriptionWordCloud">Link</a> | 
+| Mini Project 4 | Parse and extract NER from job description. | <a href=" https://huggingface.co/spaces/jojo3416/NERJobDescriptionExtractor">Link</a> | 
+| Mini Project 5 | Converts PDF,DOCX files to txt format. | <a href="https://www.example.com">Link</a> | 
+| Mini Project 6 | Parse and extract NER from Resume | <a href="https://huggingface.co/spaces/jojo3416/NEResumExtractor">Link</a> | 
+| Mini Project 7 | Calculates Word and Phrase Frequency| <a href="https://www.example.com">Link</a> | 
+| Mini Project 8 | Text Cleaning & Preprocessing | <a href=" https://huggingface.co/spaces/jojo3416/TextPreprocessing">Link</a> | 
+
 
 
