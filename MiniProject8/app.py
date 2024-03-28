@@ -3,6 +3,7 @@ import spacy
 import re
 
 
+
 # removing formatting
 
 def remove_formatting(text):
@@ -37,13 +38,6 @@ def remove_punctuation(text):
     
     return text
 
-# spelling correction
-
-def correct_spelling_spacy(text):
-    nlp = spacy.load("en_core_web_sm")
-    doc = nlp(text)
-    text = ' '.join([token._.suggested_string if token._.has("suggested_string") else token.text for token in doc])
-    return text
 
 # removing white spaces
 
@@ -73,7 +67,7 @@ def preprocessing_text(text):
     text1 = remove_formatting(text)
     text2 = convert_to_lowercase(text1)
     text3 = remove_punctuation(text2)
-    text4 = correct_spelling_spacy(text3)
+    text4 = correct_spelling_spellchecker(text3)
     #text5 = remove_whitespace(text4)
     text6 = remove_stopwords_spacy(text4)
 
