@@ -1,5 +1,5 @@
-# Resume Optimizer Project
-![Web Scrapping](https://github.com/JOCRZ/Web_Scrapping/blob/main/web_scrapping.png?raw=true)
+
+![Resume Optimizer](https://github.com/JOCRZ/ResumeScanner/blob/main/data/cover.png?raw=true)
 - Aim: To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information help to improve candidate resume.
   
 ## Mini Projects List
