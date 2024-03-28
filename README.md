@@ -14,3 +14,5 @@
   https://huggingface.co/spaces/jojo3416/NEResumExtractor
 - MiniProject 7 - Word and Phrase Frequency
   https://huggingface.co/spaces/jojo3416/PhrasesFrequencyCounter
+- MiniProject 8 - Text Preprocessing
+  https://huggingface.co/spaces/jojo3416/TextPreprocessing
