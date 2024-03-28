@@ -1,7 +1,7 @@
 
 ![Resume Optimizer](https://github.com/JOCRZ/ResumeScanner/blob/main/data/cover.png?raw=true)
 
-###  To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis of the extracted information help to improve candidate resume.
+###  To create a resume scanner to extract relevant information from candidate resume and job description to give necessary analysis to optimize resume and help to improve candidate's resume to get selected on resume screening phase.
   
 ## MINI PROJECTS LIST
   
