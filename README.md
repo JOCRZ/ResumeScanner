@@ -4,6 +4,7 @@
 ## Mini Projects List
 
 - MiniProject 1 - compares resume and job description to give similarity score.
+  https://huggingface.co/spaces/jojo3416/MatchPercentage
 - MiniProject 2 - Scrapes messages from telegram channel and show messages based on keyword.
 - MiniProject 3 - Converts job description to word cloud.
   https://huggingface.co/spaces/jojo3416/JobDescriptionWordCloud
