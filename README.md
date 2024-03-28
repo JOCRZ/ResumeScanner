@@ -18,3 +18,12 @@ https://huggingface.co/spaces/jojo3416/MatchPercentage
   https://huggingface.co/spaces/jojo3416/PhrasesFrequencyCounter
 - MiniProject 8 - Text Preprocessing
   https://huggingface.co/spaces/jojo3416/TextPreprocessing
+  
+| PROJECT | DESCRIPTION | LINK |
+|:--- |:--- |:--- |
+| Mini Project 1 | HTML parsing library | HTTP library for making web requests | 
+| Mini Project 2 | Parse HTML/XML documents | Make HTTP requests and handle responses | 
+| Mini Project 3| Parse static content only | No interaction with JavaScript or dynamic content | 
+| Mini Project 4 | Lightweight, simple syntax | Simplicity and ease of use | 
+
+
